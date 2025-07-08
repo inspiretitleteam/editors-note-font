@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'EditorsNote';
+  src: url('./fonts/EditorsNote-Light.woff2') format('woff2'),
+       url('./fonts/EditorsNote-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'EditorsNote';
+  src: url('./fonts/EditorsNote-SemiboldItalic.woff2') format('woff2'),
+       url('./fonts/EditorsNote-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+ 
+@font-face {
+  font-family: 'EditorsNote';
+  src: url('./fonts/EditorsNote-BoldItalic.woff2') format('woff2'),
+       url('./fonts/EditorsNote-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+ 
+/* Use it */
+body {
+  font-family: 'EditorsNote', sans-serif;
+}
